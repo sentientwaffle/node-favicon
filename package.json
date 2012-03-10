@@ -1,0 +1,34 @@
+{ "name":        "favicon"
+, "version":     "0.0.1"
+, "description": "find the url of a web site's favicon image"
+, "keywords":    ["favicon", "icon", "ico"]
+, "homepage":    "https://github.com/sentientwaffle/favicon"
+, "bugs":
+  { "url":  "https://github.com/sentientwaffle/favicon/issues"
+  }
+, "author":
+  { "name": "sentientwaffle"
+  , "url":  "http://sentientwaffle.github.com/"
+  }
+
+, "main": "./index"
+, "scripts":
+  { "test": "mocha"
+  }
+
+, "repository":
+  { "type": "git"
+  , "url":  "https://github.com/sentientwaffle/favicon.git"
+  }
+
+, "dependencies":
+  { "request": "2.x.x"
+  }
+
+, "devDependencies":
+  { "should": "0.x.x"
+  , "mocha":  "0.x.x"
+  }
+
+, "engines": { "node": ">=0.4.1" }
+}
