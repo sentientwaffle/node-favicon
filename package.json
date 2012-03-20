@@ -1,5 +1,5 @@
 { "name":        "favicon"
-, "version":     "0.0.1"
+, "version":     "0.0.2"
 , "description": "find the url of a web site's favicon image"
 , "keywords":    ["favicon", "icon", "ico"]
 , "homepage":    "https://github.com/sentientwaffle/favicon"
