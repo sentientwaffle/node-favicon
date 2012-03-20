@@ -28,10 +28,9 @@ module.exports = function(url, callback) {
     // Check for <link rel="icon" href="???"> tags to indicate
     // the location of the favicon.
     request(root, function(err, res, body) {
-      
       var link_re = /<link (.*)>/gi
-        , rel_re  = /rel="[^"]*icon[^"]*"/i
-        , href_re = /href="([^"]*)"/i
+        , rel_re  = /rel=["'][^"]*icon[^"']*["']/i
+        , href_re = /href=["']([^"']*)["']/i
         , match, ico_match;
       
       while (match = link_re.exec(body)) {

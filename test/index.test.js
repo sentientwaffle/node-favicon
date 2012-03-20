@@ -25,4 +25,12 @@ describe("favicon", function() {
       done();
     });
   });
+  
+  it("handles single quotes", function(done) {
+    favicon("http://hashrocket.com/articles", function(err, url) {
+      if (err) return done(err);
+      url.should.eql("http://hashrocket.com/favicon.png");
+      done();
+    });
+  });
 });
