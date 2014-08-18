@@ -1,3 +1,5 @@
+**Not maintained**
+
 # Favicon
 
 [![Build Status](https://secure.travis-ci.org/sentientwaffle/node-favicon.png?branch=master)](http://travis-ci.org/sentientwaffle/node-favicon)
